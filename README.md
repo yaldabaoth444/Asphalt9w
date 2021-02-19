@@ -7,7 +7,7 @@ Default folder: NETWORK
 Launch from a different folder: python Start.py RACE
 
 File name parser rules:
-FileName [FolderName]{TOUT_**500**,TLR_**0.96**,KEY_**Code**}
+FileName[FolderName]{TOUT_**500**,TLR_**0.96**,KEY_**Code**}.png (jpg|gif|png)
 
 _FileName_ - Any
 
