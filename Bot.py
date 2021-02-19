@@ -47,21 +47,17 @@ class Bot:
 				m_tlr = tlr.search(opt)
 				if m_tlr:
 					precision = float(m_tlr.group(1))
-					#print('custom precision = {}'.format(precision))
 				
 				m_opt = key.search(opt)
 				if m_opt:
 					keyCode = m_opt.group(1)
-					#print('key = {}'.format(keyCode))
 
 				m_tout = tout.search(opt)
 				if m_tout:
 					timeOut = int(m_tout.group(1))
-					#print('timeout  = {}'.format(timeOut))
 
 			pos = pag.locateCenterOnScreen(path+'/'+file, confidence = precision, grayscale=False)
 			if pos:
-				print(pos)
 				if keyCode:  
 					pag.press(keyCode)  
 					print('Presskey {} by {}'.format(keyCode, file))
