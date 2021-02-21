@@ -18,3 +18,5 @@ _TOUT_ - time out after action
 _TLR_ - Template searching tolerance
 
 _KEY_ - Press some key instead left click
+
+<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/%D0%A1urrent%20algorithm.png" alt="Сurrent algorithm" width="766" height="800">
