@@ -4,14 +4,15 @@ import os
 import pyautogui as pag
 import pydirectinput
 import time
+from colorama import init, Fore
 
+init(autoreset=True, convert=True)
 pag.FAILSAFE = True
-p = re.compile(r'\[(?P<path>.*)\]')
-o = re.compile(r'{(?P<options>.*)}')
+p = re.compile(r'\[(.*)\]')
+o = re.compile(r'{(.*)}')
 key = re.compile(r'KEY_([a-z0-9]+)')
 tout = re.compile(r'TOUT_([0-9]+)')
 tlr = re.compile(r'TLR_([.0-9]+)')
-
 class Bot:
 	def __init__(self):
 		pass
@@ -21,60 +22,49 @@ class Bot:
 		path = startPath
 		while True:
 			try:
-				result = self.ProcessScreen(root + path, 0.98)
+				result = self.ProcessScreen(root + path, "0.98")
 				if result:
-					print('switch to ' + result)
+					print('switch to {}{}'.format(Fore.GREEN, result))
 					path = result
 
 			except KeyboardInterrupt:
 				print('KeyboardInterrupt')
 				break
 		return
-	
+
 	def ProcessScreen(self, path, precisionDef):
 		path = path if path[-1] == '/' or '\\' else path+'/'
 		valid_images = [".jpg", ".gif", ".png", ".jpeg"]
 		files = [f for f in os.listdir(path) if os.path.isfile(os.path.join(path, f)) and os.path.splitext(f)[1].lower() in valid_images]
 		for file in files:
-			precision = precisionDef
-			m_opt = o.search(file)
-			timeOut = 0
-			keyCode = None
-			opt = None 
-			if m_opt:
-				opt = m_opt.group('options')
-
-				m_tlr = tlr.search(opt)
-				if m_tlr:
-					precision = float(m_tlr.group(1))
-				
-				m_opt = key.search(opt)
-				if m_opt:
-					keyCode = m_opt.group(1)
-
-				m_tout = tout.search(opt)
-				if m_tout:
-					timeOut = int(m_tout.group(1))
-
+			opt = ExtractParam(o, file, None)
+			precision = float(ExtractParam(tlr, opt, precisionDef))
+			timeOut = int(ExtractParam(tout, opt, "0"))
+			keyCode = ExtractParam(key, opt, None)
 			pos = pag.locateCenterOnScreen(path+'/'+file, confidence = precision, grayscale=False)
 			if pos:
 				if keyCode:  
 					pag.press(keyCode)  
-					print('Presskey {} by {}'.format(keyCode, file))
+					print('Presskey by {}{}'.format(Fore.RED, file))
 				else:
 					while pag.position().x != pos.x and pag.position().y != pos.y:
 						pydirectinput.moveTo(pos.x, pos.y)
 					pag.click()
 
 					time.sleep(0.2)
-					print('Click to button {}'.format(file))
+					print('Click button {}{} {}{}'.format(Fore.RED, file, Fore.BLUE, pos))
 				
 				if timeOut > 0:    
 					time.sleep(timeOut/1000)
 				else:
 					time.sleep(0.2)    
 
-				m_path = p.search(file)
-				if m_path:
-					return m_path.group('path')
+				return ExtractParam(p, file, None)
 		return
+
+def ExtractParam(r, text, defaultVal):
+	if text:
+		result = r.search(text)
+		if result:
+			return result.group(1)
+	return defaultVal
