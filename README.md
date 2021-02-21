@@ -3,6 +3,7 @@ Asphalt 9 cliker for windows
 
 Usage: python Start.py
 Default folder: NETWORK
+Python version: 3.9.1+
 
 Launch from a different folder: python Start.py RACE
 
