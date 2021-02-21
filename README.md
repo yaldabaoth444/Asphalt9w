@@ -1,7 +1,7 @@
 # Ashpalt9w
 Asphalt 9 cliker for windows
 
-Usage: python Start.py<br>  
+Usage: python Start.py  
 Default folder: NETWORK  
 Python version: 3.9.1+
 
