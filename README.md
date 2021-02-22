@@ -5,7 +5,9 @@ Usage: python Start.py
 Default folder: NETWORK  
 Python version: 3.9.1+
 
-Launch from a different folder: python Start.py RACE
+Launch from a different folder: python Start.py [RootFolder StartSubFolder]  
+RootFolder - default value 'Images'  
+StartSubFolder - Start folder to proccess. Default value 'START'
 
 File name parser rules:  
 FileName[FolderName]{TOUT_**500**,TLR_**0.96**,KEY_**Code**}.png (jpg|gif|png)
