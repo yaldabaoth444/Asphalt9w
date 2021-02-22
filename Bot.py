@@ -5,6 +5,7 @@ import pyautogui as pag
 import pydirectinput
 import time
 from colorama import init, Fore
+import msvcrt
 
 init(autoreset=True, convert=True)
 pag.FAILSAFE = True
@@ -14,19 +15,26 @@ key = re.compile(r'KEY_([a-z0-9]+)')
 tout = re.compile(r'TOUT_([0-9]+)')
 tlr = re.compile(r'TLR_([.0-9]+)')
 class Bot:
-	def __init__(self):
-		pass
+	def __init__(self, rootFolder = 'Images', startFolder = 'START'):
+		self.rootFolder = './' + rootFolder + '/'
+		self.currentFolder = startFolder
 
-	def Run(self, startPath):
-		root = './Images/'
-		path = startPath
+	def Run(self):
 		while True:
 			try:
-				result = self.ProcessScreen(root + path, "0.98")
+				result = self.ProcessScreen(self.rootFolder + self.currentFolder, "0.98")
 				if result:
 					print('switch to {}{}'.format(Fore.GREEN, result))
-					path = result
-
+					if result == 'END':
+						print("Script stopped")
+						break
+					self.currentFolder = result
+				k = kbfunc()
+				if k == 113:
+					exit()
+				if k == 27:
+					input("Press Enter to continue...")
+					print("Script resumed")
 			except KeyboardInterrupt:
 				print('KeyboardInterrupt')
 				break
@@ -68,3 +76,6 @@ def ExtractParam(r, text, defaultVal):
 		if result:
 			return result.group(1)
 	return defaultVal
+
+def kbfunc():
+	return ord(msvcrt.getch()) if msvcrt.kbhit() else 0
