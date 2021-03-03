@@ -25,4 +25,4 @@ _KEY_ - Press some key instead left click
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Console.png" alt="Сurrent algorithm" width="687" height="443">
 
 **Windows version**  
-<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/windows version.png" alt="Сurrent algorithm" width="687" height="443">
+<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/windows version.png" alt="Сurrent algorithm" width="873" height="917">
