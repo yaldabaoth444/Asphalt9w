@@ -21,8 +21,8 @@ _KEY_ - Press some key instead left click
 **The algorithm can be anything you like**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/%D0%A1urrent%20algorithm.png" alt="Сurrent algorithm" width="766" height="800">
 
-**Console output example**  
+**Python version console output example**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Console.png" alt="Сurrent algorithm" width="687" height="443">
 
-**Windows version**  
+**Executable version output exmple (WinForms .Net 4.5.2)**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/windows version.png" alt="Сurrent algorithm" width="873" height="917">
