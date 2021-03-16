@@ -17,7 +17,8 @@ _FolderName_ - Change current folder
 _TOUT_ - time out after action  
 _TLR_ - Template searching tolerance  
 _KEY_ - Press some key instead left click 
-<br>
+
+
 **Basic scheme of the principle of operation**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/base-processing.png" alt="Сurrent algorithm" width="800" height="477">
 
