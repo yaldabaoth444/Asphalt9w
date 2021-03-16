@@ -18,7 +18,7 @@ _TOUT_ - time out after action
 _TLR_ - Template searching tolerance  
 _KEY_ - Press some key instead left click
 **Basic scheme of the principle of operation**  
-<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/base-processing.png" alt="Сurrent algorithm" width="800" height="477">
+<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/base-processing.png" alt="Сurrent algorithm" width="1600" height="953">
 
 **The algorithm can be anything you like**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/%D0%A1urrent%20algorithm.png" alt="Сurrent algorithm" width="766" height="800">
