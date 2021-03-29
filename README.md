@@ -1,5 +1,5 @@
 # Ashpalt9w
-Asphalt 9 cliker for windows (<a href="https://drive.google.com/file/d/1Nqi57RaTyhWWbCpUkac-ixjj15d3R1KA/view?usp=sharing">executable version alpha</a>)
+Asphalt 9 cliker for windows (<a href="https://drive.google.com/file/d/172qS1R62UkrwzhfaEHCrYhSVB1Ub5Nup/view?usp=sharing">executable version beta</a> <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)
 
 Usage: python Start.py  
 Default folder: NETWORK  
