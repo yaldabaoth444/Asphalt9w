@@ -1,6 +1,6 @@
 # Ashpalt9w
 Asphalt 9 cliker for windows (<a href="https://drive.google.com/file/d/172qS1R62UkrwzhfaEHCrYhSVB1Ub5Nup/view?usp=sharing">Executable version beta</a> + required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)
-<div style="background-color: blue">
+
 Usage: python Start.py  
 Default folder: NETWORK  
 Python version: 3.9.1+
@@ -8,7 +8,7 @@ Python version: 3.9.1+
 Launch from a different folder: python Start.py [RootFolder StartSubFolder]  
 RootFolder - default value 'Images'  
 StartSubFolder - Start folder to proccess. Default value 'START'
-</div>
+
 File name parser rules:  
 FileName[FolderName]{TOUT_**500**,TLR_**0.96**,KEY_**Code**}.png (jpg|gif|png)
 
