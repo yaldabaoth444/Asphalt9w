@@ -1,7 +1,6 @@
 # Ashpalt9w
 Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)  
-Data sample made for window size width: 3230  height: 1552 (see in app log)
-
+Data sample made for window size width: 3230  height: 1552 (see in app log). To set the desired window size, I use <a href="http://www.brianapps.net/sizer/">Sizer</a>  
 
 File name parser rules:  
 Data/Scenario/Step/FileName[STEP]{OPTIONS}.png  
