@@ -12,7 +12,7 @@ _STEP_ - Next scenario step
 OPTIONS: (comma separated options)  
 * _TOUT_ - timeout after action in milleseconds (ex: TOUT_500)  
 * _TLR_ - Template searching tolerance (ex: TLR_0.8)  
-* _KEY_ - Press some key instead left click (ex: KEY_ESCAPE)  
+* _KEY_ - Press some key instead left click (ex: KEY_ESCAPE) <a href="https://github.com/yaldabaoth444/Asphalt9w/blob/main/Readme/key-codes.txt">key-codes</a>  
 * _LOC_ - The location of the image you are looking for (ex: LOC_BR40 which means bottom right 40% of screen)  
 * _AREA_ - Describes the area of the image, where XY is the upper left corner, WH is the area size (ex: AREA_X1300Y300W650H155)  
 
