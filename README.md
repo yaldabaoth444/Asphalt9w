@@ -1,22 +1,18 @@
 # Ashpalt9w
-Asphalt 9 cliker for windows (<a href="https://drive.google.com/file/d/12Pkk5i-79FIC2fiRVfl7Sq4iQiEPTPey/view?usp=sharing">Executable version 0.98 pre release</a> + required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)
-
-Usage: python Start.py  
-Default folder: NETWORK  
-Python version: 3.9.1+
-
-Launch from a different folder: python Start.py [RootFolder StartSubFolder]  
-RootFolder - default value 'Images'  
-StartSubFolder - Start folder to proccess. Default value 'START'
+Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)
 
 File name parser rules:  
-FileName[FolderName]{TOUT_**500**,TLR_**0.96**,KEY_**Code**}.png (jpg|gif|png)
+Data/Scenario/Step/FileName[STEP]{OPTIONS}.png
 
+_Data_ - directory containing the scripts
+_Scenario_ - Script title
+_Step_ - Script steps
 _FileName_ - Any  
-_FolderName_ - Change current folder  
-_TOUT_ - time out after action  
-_TLR_ - Template searching tolerance  
-_KEY_ - Press some key instead left click 
+_STEP_ - Next scenario step  
+OPTIONS: (comma separated)
+_TOUT_ - timeout after action in milleseconds (ex: TOUT_500)
+_TLR_ - Template searching tolerance (ex: TLR_0.8) 
+_KEY_ - Press some key instead left click (ex: KEY_ESCAPE)
 
 
 **Basic scheme of the principle of operation**  
@@ -24,9 +20,6 @@ _KEY_ - Press some key instead left click
 
 **The algorithm can be anything you like**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/%D0%A1urrent%20algorithm.png" alt="Сurrent algorithm" width="766" height="800">
-
-**Python version console output example**  
-<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Console.png" alt="Сurrent algorithm" width="687" height="443">
 
 **Executable version output exmple (WinForms .Net 4.5.2)**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/windows version.png" alt="Сurrent algorithm" width="659" height="628">
