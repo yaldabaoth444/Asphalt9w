@@ -9,7 +9,7 @@ Data/Scenario/Step/FileName[STEP]{OPTIONS}.png
 _Data_ - directory containing the scripts  
 _Scenario_ - Script title  
 _Step_ - Script steps  
-_FileName_ - Any. *Note: if there is the same part in the name before the dot, then a random pattern is chosen* (ex: any.CarFord.png, any.CarMazda.png, any.CarBMW.png)  
+_FileName_ - Any. *Note: if there is the same part in the name before the dot, then a random pattern is chosen*<br>(ex: any.CarFord.png, any.CarMazda.png, any.CarBMW.png)  
 _STEP_ - Next scenario step  
 OPTIONS: (comma separated options)  
 * _TOUT_ - timeout after action in milleseconds (ex: TOUT_500)  
