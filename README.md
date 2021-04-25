@@ -2,8 +2,9 @@
 Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)  
 Data sample made for window size width: 3230  height: 1552 (see in app log). To set the desired window size, I use <a href="http://www.brianapps.net/sizer/">Sizer</a>  
 
-File name parser rules:  
-> Data/Scenario/Step/FileName[STEP]{OPTIONS}.png  
+> File name parser rules:  
+
+Data/Scenario/Step/FileName[STEP]{OPTIONS}.png  
 
 _Data_ - directory containing the scripts  
 _Scenario_ - Script title  
@@ -17,8 +18,9 @@ OPTIONS: (comma separated options)
 * _LOC_ - The location of the image you are looking for (ex: **LOC_BR40** which means bottom right 40% of screen). B - bottom, T - top, L - left, R - right  
 * _AREA_ - Describes the search area in the image, where XY is the upper left corner, WH is the area size (ex: **AREA_X1300Y300W650H155**)  
 
-Script file format:  
-> Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)  
+> Script file format:  
+
+Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)  
 
 **Basic scheme of the principle of operation**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/base-processing.png" alt="Сurrent algorithm" width="800" height="477">
