@@ -10,9 +10,9 @@ _Step_ - Script steps
 _FileName_ - Any  
 _STEP_ - Next scenario step  
 OPTIONS: (comma separated)  
-*_TOUT_ - timeout after action in milleseconds (ex: TOUT_500)  
-*_TLR_ - Template searching tolerance (ex: TLR_0.8)  
-*_KEY_ - Press some key instead left click (ex: KEY_ESCAPE)  
+* _TOUT_ - timeout after action in milleseconds (ex: TOUT_500)  
+* _TLR_ - Template searching tolerance (ex: TLR_0.8)  
+* _KEY_ - Press some key instead left click (ex: KEY_ESCAPE)  
 
 
 **Basic scheme of the principle of operation**  
