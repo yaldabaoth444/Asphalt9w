@@ -14,7 +14,7 @@ OPTIONS: (comma separated)
 * _TLR_ - Template searching tolerance (ex: TLR_0.8)  
 * _KEY_ - Press some key instead left click (ex: KEY_ESCAPE)  
 * _LOC_ - The location of the image you are looking for (ex: LOC_BR40 which means bottom right 40% of screen)  
-* _AREA_ - Describes the area of the image, where XY is the upper left corner, WH is the width and height respectively (ex: AREA_X1300Y300W650H155)  
+* _AREA_ - Describes the area of the image, where XY is the upper left corner, WH is the area size (ex: AREA_X1300Y300W650H155)  
 
 **Basic scheme of the principle of operation**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/base-processing.png" alt="Сurrent algorithm" width="800" height="477">
