@@ -1,5 +1,7 @@
 # Ashpalt9w
-Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)
+Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)  
+Data sample made for window size width: 3230  height: 1552 (see in app log)
+
 
 File name parser rules:  
 Data/Scenario/Step/FileName[STEP]{OPTIONS}.png  
