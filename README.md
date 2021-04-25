@@ -18,6 +18,9 @@ OPTIONS: (comma separated options)
 * _LOC_ - The location of the image you are looking for (ex: **LOC_BR40** which means bottom right 40% of screen). B - bottom, T - top, L - left, R - right  
 * _AREA_ - Describes the search area in the image, where XY is the upper left corner, WH is the area size (ex: **AREA_X1300Y300W650H155**)  
 
+Script file format:  
+Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)  
+
 **Basic scheme of the principle of operation**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/base-processing.png" alt="Сurrent algorithm" width="800" height="477">
 
