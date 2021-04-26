@@ -14,7 +14,7 @@ _STEP_ - Next scenario step
 OPTIONS: (comma separated options)  
 * _TOUT_ - Timeout after action in milleseconds (ex: **TOUT_500**) 
 * _LAG_ - Temporarily excludes the pattern from processing after action for a specified time in milleseconds (ex: **LAG_500**)  
-* _TLR_ - Template searching tolerance (ex: **TLR_0.8**)  
+* _TLR_ - Template searching tolerance (ex: **TLR_0.8**). The default tolerance is 0.98  
 * _KEY_ - Press some key instead left click (ex: **KEY_ESCAPE**) <a href="https://github.com/yaldabaoth444/Asphalt9w/blob/main/Readme/key-codes.txt">key-codes</a>  
 * _LOC_ - The location of the image you are looking for (ex: **LOC_BR40** which means bottom right 40% of screen). B - bottom, T - top, L - left, R - right  
 * _AREA_ - Describes the search area in the image, where XY is the upper left corner, WH is the area size (ex: **AREA_X1300Y300W650H155**)  
