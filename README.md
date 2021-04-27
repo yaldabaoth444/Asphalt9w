@@ -30,4 +30,4 @@ Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/%D0%A1urrent%20algorithm.png" alt="Сurrent algorithm" width="766" height="800">
 
 **Executable version output exmple (WinForms .Net 4.5.2)**  
-<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/windows version.png" alt="Сurrent algorithm" width="617" height="651">
+<img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/windows version.png" alt="Сurrent algorithm" width="411" height="433">
