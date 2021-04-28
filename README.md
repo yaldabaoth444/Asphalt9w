@@ -7,10 +7,10 @@ Data sample made for window size width: 3230  height: 1552 (see in app log). To 
 Data/Scenario/Step/FileName[STEP]{OPTIONS}.png  
 
 - _Data_ - directory containing the scripts  
-_Scenario_ - Script title  
-_Step_ - Script steps. The initial step should be named **START**. The end of the script is reached by referring to the step with the name [**END**]  
-_FileName_ - Any. *Note: if there is the same part in the name before the dot, then a random pattern is chosen* (ex: **any**.CarFord.png, **any**.CarMazda.png, **any**.CarBMW.png)  
-_STEP_ - Next scenario step  
+- _Scenario_ - Script title  
+- _Step_ - Script steps. The initial step should be named **START**. The end of the script is reached by referring to the step with the name [**END**]  
+- _FileName_ - Any. *Note: if there is the same part in the name before the dot, then a random pattern is chosen* (ex: **any**.CarFord.png, **any**.CarMazda.png, **any**.CarBMW.png)
+- _STEP_ - Next scenario step  
 OPTIONS: (comma separated options)  
 * _TOUT_ - Timeout after action in milleseconds (ex: **TOUT_500**) 
 * _LAG_ - Temporarily excludes the pattern from processing after action for a specified time in milleseconds (ex: **LAG_500**)  
