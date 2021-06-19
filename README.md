@@ -32,3 +32,7 @@ Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)
 
 **Executable version output exmple (WinForms .Net 4.5.2)**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/windows version.png" alt="Сurrent algorithm" width="823" height="868">
+
+**Latest changes**  
+![image](https://user-images.githubusercontent.com/25618671/122649590-ec2a2400-d147-11eb-85c2-da845e62c80c.png)
+
