@@ -2,6 +2,7 @@
 **Latest changes**  
 ![image](https://user-images.githubusercontent.com/25618671/122649742-c7827c00-d148-11eb-8c01-2940e4d8ee77.png)  
 <hr>
+
 Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)  
 Data sample made for window size width: 3230  height: 1552 (see in app log). To set|restore the desired window size, I use <a href="http://www.brianapps.net/sizer/">Sizer</a>  
 <a href="https://youtu.be/RD9A6wjkkcw">Ford GT hunting example</a>  
