@@ -1,5 +1,8 @@
 # Ashpalt9w  
 **Latest changes**  
+Repository link system for reuse the same templates. The options from the Data files merged or overwrite the options from the repository  
+![image](https://user-images.githubusercontent.com/25618671/130994099-19161c2c-7d3c-426f-97fe-026c38b7600a.png)
+
 ![image](https://user-images.githubusercontent.com/25618671/122649742-c7827c00-d148-11eb-8c01-2940e4d8ee77.png)  
 <hr>
 
