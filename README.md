@@ -1,5 +1,6 @@
 # Ashpalt9w  
 **Latest changes**  
+Bot tested on Hyper-V
 Tetherscript HID Virtual Driver is no longer needed  
 <a href="https://github.com/yaldabaoth444/Asphalt9w/blob/main/Readme/key-codes.txt">Key codes</a> have changed (SPACEBAR -> SPACE)
 
