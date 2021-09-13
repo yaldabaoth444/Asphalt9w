@@ -1,90 +1,153 @@
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
-y
-z
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0
-ENTER
-ESCAPE
-BACKSPACE
-TAB
-SPACEBAR
--
-=
-[
-]
-\
-;
-`
-,
-.
-/
-CAPSLOCK
-F1
-F2
-F3
-F4
-F5
-F6
-F7
-F8
-F9
-F10
-F11
-F12
-PRINTSCREEN
-SCROLLLOCK
-PAUSE
-INSERT
-HOME
-PAGEUP
-DELETE
-END
-PAGEDOWN
-RIGHTARROW
-LEFTARROW
-DOWNARROW
-UPARROW
-NUMLOCK
-F13
-F14
-F15
-F16
-F17
-F18
-F19
-F20
-F21
-F22
-F23
-F24
+LBUTTON                 // Left mouse button
+RBUTTON                 // Right mouse button
+MBUTTON                 // Middle mouse button (three-button mouse)
+BACK                    // BACKSPACE key
+TAB                     // TAB key
+CLEAR                   // CLEAR key
+RETURN                  // ENTER key
+SHIFT                   // SHIFT key
+CONTROL                 // CTRL key
+MENU                    // ALT key
+PAUSE                   // PAUSE key
+CAPITAL                 // CAPS LOCK key
+ESCAPE                  // ESC key
+SPACE                   // SPACEBAR
+PRIOR                   // PAGE UP key
+NEXT                    // PAGE DOWN key
+END                     // END key
+HOME                    // HOME key
+LEFT                    // LEFT ARROW key
+UP                      // UP ARROW key
+RIGHT                   // RIGHT ARROW key
+DOWN                    // DOWN ARROW key
+PRINT                   // PRINT key
+SNAPSHOT                // PRINT SCREEN key
+INSERT                  // INS key
+DELETE                  // DEL key
+HELP                    // HELP key
+0                       // 0 key
+1                       // 1 key
+2                       // 2 key
+3                       // 3 key
+4                       // 4 key
+5                       // 5 key
+6                       // 6 key
+7                       // 7 key
+8                       // 8 key
+9                       // 9 key
+A                       // A key
+B                       // B key
+C                       // C key
+D                       // D key
+E                       // E key
+F                       // F key
+G                       // G key
+H                       // H key
+I                       // I key
+J                       // J key
+K                       // K key
+L                       // L key
+M                       // M key
+N                       // N key
+O                       // O key
+P                       // P key
+Q                       // Q key
+R                       // R key
+S                       // S key
+T                       // T key
+U                       // U key
+V                       // V key
+W                       // W key
+X                       // X key
+Y                       // Y key
+Z                       // Z key
+STARTKEY                // START key
+CONTEXTKEY              // CON key
+NUMPAD0                 // Numeric keypad 0 key
+NUMPAD1                 // Numeric keypad 1 key
+NUMPAD2                 // Numeric keypad 2 key
+NUMPAD3                 // Numeric keypad 3 key
+NUMPAD4                 // Numeric keypad 4 key
+NUMPAD5                 // Numeric keypad 5 key
+NUMPAD6                 // Numeric keypad 6 key
+NUMPAD7                 // Numeric keypad 7 key
+NUMPAD8                 // Numeric keypad 8 key
+NUMPAD9                 // Numeric keypad 9 key
+MULTIPLY                // Multiply key
+ADD                     // Add key
+SEPARATOR               // Separator key
+SUBTRACT                // Subtract key
+DECIMAL                 // Decimal key
+DIVIDE                  // Divide key
+F1                      // F1 key
+F2                      // F2 key
+F3                      // F3 key
+F4                      // F4 key
+F5                      // F5 key
+F6                      // F6 key
+F7                      // F7 key
+F8                      // F8 key
+F9                      // F9 key
+F10                     // F10 key
+F11                     // F11 key
+F12                     // F12 key
+F13                     // F13 key
+F14                     // F14 key
+F15                     // F15 key
+F16                     // F16 key
+F17                     // F17 key
+F18                     // F18 key
+F19                     // F19 key
+F20                     // F20 key
+F21                     // F21 key
+F22                     // F22 key
+F23                     // F23 key
+F24                     // F24 key
+NUMLOCK                 // NUM LOCK key
+OEM_SCROLL              // SCROLL LOCK key
+LSHIFT                  // Left shift key
+RSHIFT                  // Right shift key
+LCONTROL                // Left control key
+RCONTROL                // Right control key
+LMENU                   // Left menu key
+RMENU                   // Right menu key
+OEM_1                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the ',:' key
+OEM_PLUS                // For any country/region, the '+' key
+OEM_COMMA               // For any country/region, the ',' key
+OEM_MINUS               // For any country/region, the '-' key
+OEM_PERIOD              // For any country/region, the '.' key
+OEM_2                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the '/?' key
+OEM_3                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the '`~' key
+OEM_4                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the '[{' key
+OEM_5                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the '\|' key
+OEM_6                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the ']}' key
+OEM_7                   // Used for miscellaneous characters, it can vary by keyboard. For the US standard keyboar the 'single-quote/double-quote' key
+OEM_8                   // Used for miscellaneous characters, it can vary by keyboard.
+OEM_102                 // Either the angle bracket key or the backslash key on the RT 102-key keyboard.
+ICO_F17                 // F17 on Olivetti extended keyboard (internal use only).
+ICO_F18                 // F18 on Olivetti extended keyboard (internal use only).                  
+ICO_HELP                // Help on Olivetti extended keyboard (internal use only)
+ICO_00                  // 00 on Olivetti extended keyboard (internal use only)
+ICO_CLEAR               // Clear on Olivette extended keyboard (internal use only)
+OEM_RESET               // Reset (Nokia keyboards only)
+OEM_JUMP                // Jump (Nokia keyboards only)
+OEM_PA1                 // PA1 (Nokia keyboards only)
+OEM_PA2                 // PA2 (Nokia keyboards only)
+OEM_PA3                 // PA3 (Nokia keyboards only)
+OEM_WSCTRL              // WSCTRL (Nokia keyboards only)
+OEM_CUSEL               // CUSEL (Nokia keyboards only)
+OEM_ATTN                // ATTN (Nokia keyboards only)
+OEM_FINNISH             // FINNISH (Nokia keyboards only)
+OEM_COPY                // COPY (Nokia keyboards only)
+OEM_AUTO                // AUTO (Nokia keyboards only)
+OEM_ENLW                // ENLW (Nokia keyboards only)
+OEM_BACKTAB             // BACKTAB (Nokia keyboards only)
+ATTN                    // ATTN 
+CRSEL                   // CRSEL
+EXSEL                   // EXSEL
+EREOF                   // EREOF
+PLAY                    // PLAY 
+ZOOM                    // ZOOM 
+NONAME                  // NONAME
+PA1                     // PA1  
+OEM_CLEAR               // CLEAR
