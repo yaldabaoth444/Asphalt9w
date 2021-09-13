@@ -1,6 +1,6 @@
 # Ashpalt9w  
 **Latest changes**  
-Tetherscript HID Virtual Driver is no longer needed 
+Tetherscript HID Virtual Driver is no longer needed  
 Key codes have changed
 
 Repository link system for reuse the same templates. The options from the Data files merged or overwrite the options from the repository  
