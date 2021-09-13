@@ -1,12 +1,13 @@
 # Ashpalt9w  
 **Latest changes**  
+Tetherscript HID Virtual Driver is no longer needed  
 Repository link system for reuse the same templates. The options from the Data files merged or overwrite the options from the repository  
 ![image](https://user-images.githubusercontent.com/25618671/130994099-19161c2c-7d3c-426f-97fe-026c38b7600a.png)
 
 ![image](https://user-images.githubusercontent.com/25618671/122649742-c7827c00-d148-11eb-8c01-2940e4d8ee77.png)  
 <hr>
 
-Asphalt 9 cliker for windows (+ required <a href="https://tetherscript.s3-us-west-2.amazonaws.com/HVDK/HVDK+Standard_2.1_Installer.exe">Mouse virtual driver</a>)  
+Asphalt 9 cliker for windows  
 Data sample made for window size width: 1039  height: 515 (see in app log). To set|restore the desired window size, I use <a href="http://www.brianapps.net/sizer/">Sizer</a>  
 <a href="https://youtu.be/RD9A6wjkkcw">Ford GT hunting example</a>  
 <a href="https://youtu.be/GC6x_9_2ci0">Aston Martin V12 Speedster hunting example</a>  
