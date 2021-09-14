@@ -11,7 +11,7 @@ Repository link system for reuse the same templates. The options from the Data f
 <hr>
 
 Asphalt 9 cliker for windows  
-Require: <a href="https://support.microsoft.com/ru-ru/topic/update-for-visual-c-2013-redistributable-package-d8ccd6a5-4e26-c290-517b-8da6cfdf4f10">Visual C++ 2013 Redistributable Package</a>  
+Required: <a href="https://support.microsoft.com/ru-ru/topic/update-for-visual-c-2013-redistributable-package-d8ccd6a5-4e26-c290-517b-8da6cfdf4f10">Visual C++ 2013 Redistributable Package</a>  
 Data sample made for window size width: 1039  height: 515 (see in app log). To set|restore the desired window size, I use <a href="http://www.brianapps.net/sizer/">Sizer</a>  
 <a href="https://youtu.be/RD9A6wjkkcw">Ford GT hunting example</a>  
 <a href="https://youtu.be/GC6x_9_2ci0">Aston Martin V12 Speedster hunting example</a>  
