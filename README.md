@@ -5,6 +5,8 @@ GP Example https://youtu.be/W1rB03THwyM
 1) Automatic completion of daily tasks (Credit Heist, Exclusive, Class Cup, Hunt, etc)  
 2) Navigation (hybrid https://youtu.be/s1UVSm2MAzE) 
 3) and much more  
+![image](https://user-images.githubusercontent.com/25618671/141178568-75d06d96-5b67-45d6-bab2-87183c69302a.png)
+
 -----------------------------------    
 ![image](https://user-images.githubusercontent.com/25618671/133860661-4d9f4d8b-b450-4674-ae83-35fb2c12dc8d.png)    
 Bot successfully tested on Hyper-V  
