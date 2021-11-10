@@ -3,7 +3,7 @@
 Soon a new kernel to create bots and my version of the bot A9 . Work on this bot has stopped for now    
 GP Example https://youtu.be/W1rB03THwyM  
 1) Automatic completion of daily tasks (Credit Heist, Exclusive, Class Cup, Hunt, etc)  
-2) Navigation  
+2) Navigation (hybrid https://youtu.be/s1UVSm2MAzE) 
 3) and much more  
 -----------------------------------    
 ![image](https://user-images.githubusercontent.com/25618671/133860661-4d9f4d8b-b450-4674-ae83-35fb2c12dc8d.png)    
