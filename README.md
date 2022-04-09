@@ -1,5 +1,7 @@
 # Ashpalt9w  
 **Latest changes**  
+<a href="https://github.com/yaldabaoth444/Asphalt9win">New A9 bot wor Windows</a>  
+
 Soon a new kernel to create bots and my version of the bot A9 . Work on this bot has stopped for now    
 GP Example https://youtu.be/W1rB03THwyM  
 1) Automatic completion of daily tasks (Credit Heist, Exclusive, Class Cup, Hunt, etc)  
