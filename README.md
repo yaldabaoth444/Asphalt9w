@@ -60,5 +60,5 @@ Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)
 ___
 **Donation**  
 If you think my scripts is helpful for you, you can donate me, your donation is the best encouragement to me.  
-###### <a href = "https://paypal.me/AzamatGizatullin" target = "_blank">PayPalMe</a>  
+###### <a href = "https://paypal.me/AzamatGizatullin" target = "_blank">PayPalMe</a> (temporarily not working)  
 ###### <a href = "https://payeer.com/" target = "_blank">Payeer account: P1073238462</a>
