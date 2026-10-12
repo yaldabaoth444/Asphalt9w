@@ -1,5 +1,16 @@
 # Ashpalt9w  
 **Latest changes**  
+<a href="https://github.com/yaldabaoth444/Asphalt9win">New A9 bot for Windows</a>  
+↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑ ↑  
+Soon a new kernel to create bots and my version of the bot A9 . Work on this bot has stopped for now    
+GP Example https://youtu.be/W1rB03THwyM  
+1) Automatic completion of daily tasks (Credit Heist, Exclusive, Class Cup, Hunt, etc)  
+2) Navigation (hybrid https://youtu.be/s1UVSm2MAzE)
+![image](https://user-images.githubusercontent.com/25618671/141178568-75d06d96-5b67-45d6-bab2-87183c69302a.png) 
+4) and much more  
+
+
+-----------------------------------    
 ![image](https://user-images.githubusercontent.com/25618671/133860661-4d9f4d8b-b450-4674-ae83-35fb2c12dc8d.png)    
 Bot successfully tested on Hyper-V  
 Tetherscript HID Virtual Driver is no longer needed  
@@ -46,3 +57,8 @@ Each line refers to a script with number of repetitions (ex: **[HUNT] x5**)
 
 **Executable version output exmple (WinForms .Net 4.5.2)**  
 <img src="https://github.com/yaldabaoth444/Ashpalt9w/blob/main/Readme/windows version.png" alt="Сurrent algorithm" width="823" height="868">
+___
+**Donation**  
+If you think my scripts is helpful for you, you can donate me, your donation is the best encouragement to me.  
+###### <a href = "https://paypal.me/AzamatGizatullin" target = "_blank">PayPalMe</a> (temporarily not working)  
+###### <a href = "https://payeer.com/" target = "_blank">Payeer account: P1073238462</a>
